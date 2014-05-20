@@ -1,0 +1,42 @@
+{
+    "name": "tm/templatef002",
+    "type": "magento-module",
+    "homepage": "https://github.com/tmhub/templatef002",
+    "license": "OSL-3.0",
+    "description": "Free Classic theme",
+    "version": "1.7.0",
+    "authors": [
+        {
+            "name": "Templates-Master Team",
+            "email": "support@templates-master.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "tm/core": "*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://tmhub.github.io/packages/"
+        }
+    ],
+    "extra": {
+        "map": [
+            ["app/code/local/TM/Templatef002","app/code/local/TM/Templatef002"],
+            ["app/design/frontend/default/f002","app/design/frontend/default/f002"],
+            ["app/etc/modules/TM_Templatef002.xml","app/etc/modules/TM_Templatef002.xml"],
+            ["skin/frontend/default/f002","skin/frontend/default/f002"],
+            ["skin/frontend/default/f002_green","skin/frontend/default/f002_green"],
+            ["skin/frontend/default/f002_grey","skin/frontend/default/f002_grey"],
+            ["skin/frontend/default/f002_orange","skin/frontend/default/f002_orange"],
+            ["skin/frontend/default/f002_pink","skin/frontend/default/f002_pink"],
+            ["skin/frontend/default/f002_red","skin/frontend/default/f002_red"],
+            ["skin/frontend/default/f002_sea_green","skin/frontend/default/f002_sea_green"],
+            ["skin/frontend/default/f002_silver","skin/frontend/default/f002_silver"],
+            ["skin/frontend/default/f002_violet","skin/frontend/default/f002_violet"],
+            ["skin/frontend/default/f002_yellow","skin/frontend/default/f002_yellow"]
+        ],
+        "changelog": ""
+    }
+}
