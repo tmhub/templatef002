@@ -1,0 +1,17 @@
+{
+    "minimum-stability": "dev",
+    "require": {
+        "tm/templatef002": "*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://tmhub.github.io/packages"
+        }
+    ],
+    "extra": {
+        "magento-root-dir": "code/",
+        "magento-deploystrategy": "copy",
+        "magento-force": true
+    }
+}
