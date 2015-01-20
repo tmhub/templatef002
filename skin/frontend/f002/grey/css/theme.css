@@ -1,0 +1,20 @@
+body { background:#fff; }
+.header-container { background-image: url(../images/header-bg.gif); }
+.products-grid .product-name a,
+.products-list .product-name a { color:#5f5e5e; }
+.product-collateral h2 { color:#5f5e5e; }
+.quick-access li { background-image:url(../images/pipe-blue.gif); }
+.shop-access a { color:#dfdfdf; }
+.form-language label { color:#dfdfdf; }
+.header .form-search { background-image: url(../images/icon-zoom.gif); }
+.header .form-search input.input-text { border-color: #9d9d9d; }
+.main-container { background-color: #fff; background-image: url(../images/content-bg.gif); }
+.page-head h3, .page-title h3, .page-title h1 { color:#5f5e5e; }
+#cart-content { background: #2f2f2f; }
+#cart-content h6 { color:#CFCFCF; }
+.block .block-title strong { color:#5f5e5e; }
+.cart-collaterals h2 { color:#5f5e5e; }
+h4, h3, .category-head h2 { color:#5f5e5e; }
+#nav ul li a:hover { background-color: #dfdfdf; background-image: url(../images/nav-item-bg.gif); }
+.block-account .block-title span { color:#5f5e5e; }
+.price-box .price { color:#777; }
