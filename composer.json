@@ -13,7 +13,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "tm/core": "*"
+        "tm/core": "*",
+        "tm/catalog-configurable-swatches": "*"
     },
     "repositories": [
         {
