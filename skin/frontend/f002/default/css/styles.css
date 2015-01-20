@@ -353,7 +353,6 @@ p.required { font-size:11px; text-align:right; color:#EB340A; }
 .pager .limiter { float:right; }
 .pager .limiter label { vertical-align:middle; }
 .pager .limiter select { padding:0; margin:0 0 1px; vertical-align:middle; }
-.pager .pages { float:right;}
 .pager .pages ol { display:inline; }
 .pager .pages li { display:inline; margin:0 2px; }
 .pager .pages .current {}
