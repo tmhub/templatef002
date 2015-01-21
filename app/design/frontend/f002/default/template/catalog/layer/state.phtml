@@ -33,7 +33,10 @@
 ?>
 <?php
 $_filters = $this->getActiveFilters();
-$_renderers = $this->getParentBlock()->getChild('state_renderers')->getSortedChildren();
+$_renderers = array();
+if ($this->getParentBlock()->getChild('state_renderers')) {
+    $_renderers = $this->getParentBlock()->getChild('state_renderers')->getSortedChildren();
+}
 ?>
 <?php if(!empty($_filters)): ?>
 <div class="currently">

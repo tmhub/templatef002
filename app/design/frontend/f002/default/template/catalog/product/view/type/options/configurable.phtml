@@ -29,7 +29,10 @@
 $_product    = $this->getProduct();
 $_attributes = Mage::helper('core')->decorateArray($this->getAllowAttributes());
 $_jsonConfig = $this->getJsonConfig();
-$_renderers = $this->getChild('attr_renderers')->getSortedChildren();
+$_renderers  = array();
+if ($this->getChild('attr_renderers')) {
+    $_renderers = $this->getChild('attr_renderers')->getSortedChildren();
+}
 ?>
 <?php if ($_product->isSaleable() && count($_attributes)):?>
     <dl>
