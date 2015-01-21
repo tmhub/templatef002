@@ -1,7 +1,8 @@
 {
     "minimum-stability": "dev",
     "require": {
-        "tm/templatef002": "*"
+        "tm/templatef002": "*",
+        "symfony/console": "<2.5"
     },
     "repositories": [
         {
