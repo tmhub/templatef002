@@ -1525,7 +1525,7 @@ tr.summary-details-excluded { font-style:italic; }
 .my-account .title-buttons .link-rss { float:none; margin:0; }
 
 /********** < Dashboard */
-.dashboard .welcome-msg { margin:0 8em 1.5em 0; }
+.dashboard .welcome-msg { margin:0 8em 1.5em 1em; }
 .dashboard .welcome-msg p { margin:0; }
 .dashboard .col2-set { margin:0 0 15px; }
 

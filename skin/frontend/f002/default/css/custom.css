@@ -106,7 +106,7 @@ a:hover  img { border:0; text-decoration:none;}
 #cart-content .product-image img{border:1px solid #a9a9a9}
 #cart-content .product-details {margin:0 0 0 60px}
 #cart-content h6{color:#1E7EC8; text-indent:5px}
-#cart-content li{clear:both}
+#cart-content li{clear:both;margin: 0 0 5px 0;}
 #cart-content a:hover{color:#aaa}
 #cart-content .actions a span{cursor:pointer}
 #cart-content #center-buttons{padding-top:5px; clear:both; text-align:center}
@@ -257,7 +257,9 @@ h4,h3,.category-head h2{ font-size:12px; font-weight:bold; color:#007ed3}
 
 /**********fix**********/
 .dashboard .welcome-msg { clear: both; }
-.box-account { float: left; margin: 0 0 20px; padding: 15px; width: 635px;}
+.box-account { margin: 0 0 20px; padding: 15px; }
 
 .catalog-seo-sitemap-product .pager .pages,
 .catalog-seo-sitemap-category .pager .pages { float: none !important; }
+
+#cart-content li:after { clear: both; content: '.'; visibility: hidden; height: 0; font-size: 0; display: block; }
