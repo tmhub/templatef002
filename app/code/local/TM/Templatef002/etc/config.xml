@@ -17,4 +17,13 @@
             </templatef002_setup>
         </resources>
     </global>
+    <frontend>
+        <tm_layout>
+            <updates>
+                <f002_custom condition="tmcore/isDesignPackageEquals" args="f002">
+                    <file>custom.xml</file>
+                </f002_custom>
+            </updates>
+        </tm_layout>
+    </frontend>
 </config>
