@@ -3,7 +3,7 @@ body { background:#808080; }
 .products-grid .product-name a,
 .products-list .product-name a { color:#629b2b; }
 .product-collateral h2 { color:#3a7600; }
-.quick-access li { background-image:url(../images/pipe-blue.gif); }
+.quick-access li { background-image:url(../images/pipe-top_toolbar.gif); }
 .shop-access a { color:#629b2b; }
 .form-language label { color:#629b2b; }
 .header .form-search { background-image: url(../images/icon-zoom.gif); }

@@ -4,7 +4,7 @@ body { background:#808080; }
 .products-grid .product-name a,
 .products-list .product-name a { color:#ceac01; }
 .product-collateral h2 { color:#ceac01; }
-.quick-access li { background-image:url(../images/pipe-blue.gif); }
+.quick-access li { background-image:url(../images/pipe-top_toolbar.gif); }
 .shop-access a { color:#b09301; }
 .form-language label { color:#b09301; }
 .header .form-search { background-image: url(../images/icon-zoom.gif); }

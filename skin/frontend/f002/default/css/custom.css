@@ -51,7 +51,7 @@ a:hover  img { border:0; text-decoration:none;}
 .welcome-msg{float:left; font-size:0.95em}
 .quick-access { margin: 0px; text-align: left; float: left; color: #ababab;}
 .quick-access p { margin-bottom:4px; }
-.quick-access li {display:inline; background:url(../images/blue_pipe.gif) no-repeat 100% 3px; padding-right:10px;padding-left:3px;}
+.quick-access li {display:inline; background:url(../images/pipe-top_toolbar.gif) no-repeat 100% 3px; padding-right:10px;padding-left:3px;}
 .quick-access li.first { padding-left:10px !important; }
 .quick-access li.last { padding-right:0; background:none; }
 .shop-access {float: left; }
