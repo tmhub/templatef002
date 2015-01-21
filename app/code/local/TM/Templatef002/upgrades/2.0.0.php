@@ -178,7 +178,7 @@ HTML
             'home' => array(
                 'title'             => 'home',
                 'identifier'        => 'home',
-                'root_template'     => 'two_columns_right',
+                'root_template'     => 'three_columns',
                 'meta_keywords'     => '',
                 'meta_description'  => '',
                 'content_heading'   => '',
