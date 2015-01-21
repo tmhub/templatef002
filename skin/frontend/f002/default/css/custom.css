@@ -59,9 +59,10 @@ a:hover  img { border:0; text-decoration:none;}
 .shop-access a:hover {color: #FFF;}
 .shop-access li.last { padding-right:0; background:none; }
 
-.form-language { float: left; margin-left: 65px; display: inline; }
+.form-language { float: left; margin-left: 20px; display: inline; }
 .form-language label { color:#1e7ec8; padding-right:5px; font-size:11px; }
 .form-language .flag option { background-repeat:no-repeat; background-position:left center; padding-left:20px; margin-left:2px; }
+.header .form-language select { width: 100px; }
 
 .header .form-search { float: right; padding: 0px; position:absolute; right:0; top: 32px; width: 345px; padding: 1px 0 1px 30px; background: url(../images/icon-zoom.gif) no-repeat 0 0; }
 .header .form-search input.input-text { width:300px; border: 1px solid #517b92; padding: 3px; }
@@ -171,7 +172,7 @@ div.sliderdescription:hover,.sliderdescription.active{background-color:#fff !imp
 .block-progress dt {border-bottom:1px dotted #A3AEB3}
 .checkout-review-table-wrapper .data-table, .block-progress dd, .opc .step, .opc .step-title, .opc li.section{border: 0px !important;}
 .account-login .content {border: 0px;}
-.account-login .buttons-set {border: 0px; background: #fff;}
+.account-login .buttons-set {border: 0px; background: #fff; border-radius: 0 0 8px 8px; }
 
 button.button {margin:1px;}
 .button span span {

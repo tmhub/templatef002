@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addItem"><type>skin_css</type><name>css/custom.css</name></action>
+            <action method="addItem"><type>skin_css</type><name>css/theme.css</name></action>
+        </reference>
+        <reference name="header">
+            <block type="checkout/cart_sidebar" name="headerCart" as="headerCart" template="checkout/cart/header.cart.phtml">
+                <action method="addItemRender"><type>simple</type><block>checkout/cart_item_renderer</block><template>checkout/cart/sidebar/default.phtml</template></action>
+                <action method="addItemRender"><type>grouped</type><block>checkout/cart_item_renderer_grouped</block><template>checkout/cart/sidebar/default.phtml</template></action>
+                <action method="addItemRender"><type>configurable</type><block>checkout/cart_item_renderer_configurable</block><template>checkout/cart/sidebar/default.phtml</template></action>
+                <action method="addItemRender"><type>bundle</type><block>bundle/checkout_cart_item_renderer</block><template>checkout/cart/sidebar/default.phtml</template></action>
+                <block type="core/text_list" name="cart_sidebar.extra_actions" as="extra_actions"/>
+            </block>
+        </reference>
+        <reference name="root">
+            <block type="core/text_list" name="top_slider" as="top_slider"/>
+        </reference>
+        <reference name="left">
+            <action method="unsetChild"><name>tags_popular</name></action>
+            <block type="core/template" after="-" name="left.permanent.callout-1" template="callouts/left_col.phtml">
+                <action method="setImgSrc"><src>images/media/col_left_callout-1.jpg</src></action>
+                <action method="setImgAlt" translate="alt" module="catalog"><alt>Our customer service is available 24/7. Call us at (800) DEMO-NUMBER.</alt></action>
+                <action method="setLinkUrl"><url>checkout/cart</url></action>
+            </block>
+            <block type="core/template" after="-" name="left.permanent.callout-2" template="callouts/left_col.phtml">
+                <action method="setImgSrc"><src>images/media/col_left_callout-2.jpg</src></action>
+                <action method="setImgAlt" translate="alt" module="catalog"><alt>Our customer service is available 24/7. Call us at (800) DEMO-NUMBER.</alt></action>
+                <action method="setLinkUrl"><url>checkout/cart</url></action>
+            </block>
+        </reference>
+        <reference name="right">
+            <action method="append"><name>tags_popular</name></action>
+        </reference>
+
+        <remove name="left.permanent.callout"/>
+        <remove name="right.permanent.callout"/>
+        <remove name="left.newsletter"/>
+    </default>
+</layout>
