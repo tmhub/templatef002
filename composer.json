@@ -4,22 +4,14 @@
     "homepage": "https://github.com/tmhub/templatef002",
     "license": "OSL-3.0",
     "description": "Free Classic theme",
-    "version": "2.0.0",
     "authors": [
         {
             "name": "Templates-Master Team",
             "email": "support@templates-master.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "tm/core": "*",
         "tm/catalog-configurable-swatches": "*"
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "http://tmhub.github.io/packages/"
-        }
-    ]
+    }
 }
